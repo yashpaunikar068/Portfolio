@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+    height: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-list{
+    width: 50%;
+    background-color: black;
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+.right-nav{
+    background-color: black ;
+    width: 50%;
+}
+
+.right-nav p{
+    text-align: right;
+    padding: 26px 30px;
+    color: white;
+    font-size: x-large;
+}
+.right-nav p span{
+    color: orange;
+    font-weight: bolder;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+.nav-list li a:hover{
+    padding: 26px 30px;
+    background-color: orange;
+    color: red;
+}
+
+.about{
+    padding: 30px;
+}
+.about-heading p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    padding: 30px;
+}
+.about-description{
+    display: flex;
+    padding: 30px;
+}
+.about-description p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
+
+.photo img{
+    height: 430px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.photo-project img{
+    padding-right: 20px;
+    height: 120px;
+    width: 130px;
+    border-radius: 8px;
+}
+
+.heading{
+    width: 40%;
+}
+
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+  .about-heading p span{
+    color: orange;
+    font-weight: bolder;
+}
